@@ -5,10 +5,9 @@
   background-color: white;
   color: black;
   cursor: pointer;
-  transition: transform 0.2s, background-color 0.2s;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 10px;
   width: calc(25% - 40px);
-
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -17,7 +16,7 @@
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0 8px 16px #f8b400;
+  box-shadow: 0 0 30px rgba(248, 182, 0, 0.908);
 }
 
 .card_img {
