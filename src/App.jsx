@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1>React template</h1>
+      <h1>Memory card game</h1>
     </>
   );
 }
