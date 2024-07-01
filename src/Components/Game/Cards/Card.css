@@ -34,14 +34,12 @@
   text-transform: capitalize;
 }
 
-/* Media query for screen widths up to 1024px */
 @media (max-width: 1024px) {
   .card {
     width: calc(33.333% - 40px);
   }
 }
 
-/* Media query for screen widths up to 768px */
 @media (max-width: 768px) {
   .card {
     width: calc(50% - 50px);
@@ -52,7 +50,6 @@
   }
 }
 
-/* Media query for screen widths up to 480px */
 @media (max-width: 480px) {
   .card {
     width: calc(100% - 170px);
