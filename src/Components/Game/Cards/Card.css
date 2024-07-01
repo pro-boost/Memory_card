@@ -29,20 +29,22 @@
 .card_title {
   font-size: 1.2em;
   margin-top: 10px;
-  font-weight: bold;
+  font-weight: bolder;
   text-align: center;
-  font-family: "Pokemon Solid", sans-serif;
+  text-transform: capitalize;
 }
 
+/* Media query for screen widths up to 1024px */
 @media (max-width: 1024px) {
   .card {
     width: calc(33.333% - 40px);
   }
 }
 
+/* Media query for screen widths up to 768px */
 @media (max-width: 768px) {
   .card {
-    width: calc(50% - 20px);
+    width: calc(50% - 50px);
   }
 
   .card_title {
@@ -50,9 +52,16 @@
   }
 }
 
+/* Media query for screen widths up to 480px */
 @media (max-width: 480px) {
   .card {
-    width: calc(100% - 20px);
+    width: calc(100% - 170px);
+    height: auto;
+    margin: 5px;
+  }
+
+  .card_img {
+    height: 150px;
   }
 
   .card_title {

@@ -8,7 +8,7 @@ function Card({ photo, onClick }) {
         src={`https://img.pokemondb.net/artwork/${photo.name}.jpg`}
         alt={`${photo.name} img`}
       />
-      <h2 className="Card_title">{photo.name}</h2>
+      <h2 className="card_title">{photo.name}</h2>
     </div>
   );
 }
